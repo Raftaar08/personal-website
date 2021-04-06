@@ -1,0 +1,76 @@
+.ordek{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.ordek img{
+    width: 60%;
+}
+#name{
+    font-size: 35px;
+    color: palevioletred;
+}
+section{
+    float: left;
+    background-repeat: no-repeat;
+}
+.intro{
+
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+}
+#biographi{
+    background-image: url("biography-bg.png");
+}
+body{
+    margin: 0;
+    padding:0;
+}
+.main-img{
+    height: 400px;
+    weight:1500px;
+}
+.img{
+    height: 400px;
+    weight:1500px;
+}
+
+.work{
+    height: 400px;
+    weight:1500px;
+    float:right;
+}
+.work-section{
+    text-align: center;
+background-image: url("latest-work-bg.png");
+margin-left: 15%;
+}
+.img-work{
+    height: 300px;
+    weight: 200px;
+
+    
+}
+.what{
+    margin-left: 37%;
+    text-align: center;
+    background-image: url("footer-bg.png");
+}
+footer{
+    text-align: center;
+    margin: 10%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato
+     );
+    padding:10px 20px ;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+}
+.color{
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    border-radius: 30px;
+}
