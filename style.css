@@ -17,11 +17,11 @@ section{
 }
 .intro{
 
-    background-image: url("header-bg.png");
+    background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
 }
 #biographi{
-    background-image: url("biography-bg.png");
+    background-image: url("images/biography-bg.png");
 }
 body{
     margin: 0;
@@ -43,8 +43,9 @@ body{
 }
 .work-section{
     text-align: center;
-background-image: url("latest-work-bg.png");
-margin-left: 15%;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    margin-left: 10%;
 }
 .img-work{
     height: 300px;
@@ -54,8 +55,10 @@ margin-left: 15%;
 }
 .what{
     margin-left: 37%;
+    margin-bottom: 20px;
     text-align: center;
-    background-image: url("footer-bg.png");
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
 }
 footer{
     text-align: center;
@@ -71,6 +74,13 @@ footer{
     font-weight: bold;
 }
 .color{
-    background-image: linear-gradient(45deg,lightsalmon,tomato);
-    border-radius: 30px;
+    background-image:linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 10px;
+    width: 500px;
+    height: 150px;
+    color:white;  
+    
+}
+.naiem{
+    color: dimgray;
 }
